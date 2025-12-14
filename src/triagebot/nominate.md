@@ -8,7 +8,7 @@ There are multiple commands that can be issued in a GitHub comment to handle nom
 
 * `@rustbot beta-nominate <team>` --- Adds the `beta-nominated` and the given team's label.
   This indicates that the issue is nominated for beta backport, and the team should decide whether to accept or reject it.
-* `@rustbot nominate <team>` --- Adds the `I-nominated` and the given team's label.
+* `@rustbot nominate <team>` --- Adds the `I-<team>-nominated` label.
   This is used to nominate an issue for the team to discuss.
 * `@rustbot beta-accept` --- Adds the `beta-accepted` label.
   This indicates that it has been approved for beta backport, and someone (usually the release team) will take care of applying the backport.
@@ -30,7 +30,6 @@ The `nominate.teams` table lists the team names, and the associated labels that 
 [nominate.teams]
 compiler = "T-compiler"
 release = "T-release"
-core = "T-core"
 infra = "T-infra"
 ```
 

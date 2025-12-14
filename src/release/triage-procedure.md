@@ -35,8 +35,8 @@ where rustbot conked out and didn't assign a reviewer and thus didn't assign
 likely **not** triage PRs that have `r? @ghost` since that means the author does
 not need a review yet.)
 
-[s-waiting-on-author]: https://github.com/rust-lang/rust/pulls?q=is%3Aopen+draft%3Afalse+is%3Apr+sort%3Aupdated-asc+label%3AS-waiting-on-author+-label%3AI-nominated+-label%3Aneeds-fcp
-[s-waiting-on-review]: https://github.com/rust-lang/rust/pulls?q=is%3Aopen+draft%3Afalse+is%3Apr+sort%3Aupdated-asc+label%3AS-waiting-on-review+-label%3AI-nominated+-label%3Aneeds-fcp
+[s-waiting-on-author]: https://github.com/rust-lang/rust/pulls?q=is%3Aopen+draft%3Afalse+is%3Apr+sort%3Aupdated-asc+label%3AS-waiting-on-author+-label%3Aneeds-fcp
+[s-waiting-on-review]: https://github.com/rust-lang/rust/pulls?q=is%3Aopen+draft%3Afalse+is%3Apr+sort%3Aupdated-asc+label%3AS-waiting-on-review+-label%3Aneeds-fcp
 [s-waiting-on-t-lang]: https://github.com/rust-lang/rust/pulls?q=is%3Aopen+is%3Apr+label%3AS-waiting-on-t-lang+sort%3Aupdated-asc
 [s-waiting-on-t-compiler]: https://github.com/rust-lang/rust/pulls?q=is%3Aopen+is%3Apr+label%3AS-waiting-on-t-compiler+sort%3Aupdated-asc
 [s-waiting-on-t-libs-api]: https://github.com/rust-lang/rust/pulls?q=is%3Aopen+is%3Apr+label%3AS-waiting-on-t-libs-api+sort%3Aupdated-asc
